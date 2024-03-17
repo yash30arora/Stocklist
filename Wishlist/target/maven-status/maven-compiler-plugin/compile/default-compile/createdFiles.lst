@@ -1,0 +1,10 @@
+com\cognizant\Wishlist\Service\WishlistService.class
+com\cognizant\Wishlist\WishlistApplication.class
+com\cognizant\Wishlist\Exception\WishListNotFoundException.class
+com\cognizant\Wishlist\Model\WishlistStock.class
+com\cognizant\Wishlist\Config\FilterConfig.class
+com\cognizant\Wishlist\Exception\StockExistAlreadyException.class
+com\cognizant\Wishlist\Controller\WishlistController.class
+com\cognizant\Wishlist\Filter\JwtTokenFilter.class
+com\cognizant\Wishlist\Repository\WishlistRepository.class
+com\cognizant\Wishlist\Service\WishlistServiceImpl.class
