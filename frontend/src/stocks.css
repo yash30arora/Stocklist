@@ -1,0 +1,17 @@
+.stockssearch{
+	justify-content: center;
+      background-image: url("..images/sto3.jpg");
+      /* height: 93vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; */
+      display: flex;
+  align-items: center;
+  justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+}
