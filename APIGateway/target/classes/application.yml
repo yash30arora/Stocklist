@@ -1,0 +1,34 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: ApiGateway-Service
+  cloud:
+    gateway:
+      routes:
+        - id: UserProfile
+          uri: http://13.201.162.236:8095
+          predicates:
+            - Path=/ProfitPilot/**
+        - id: Wishlist
+          uri: http://13.201.162.236:7004
+          predicates:
+            - Path=/wishlist/**
+        - id: Stock
+          uri: http://13.201.162.236:8090
+          predicates:
+            - Path=/Stock/**
+        - id: Authentication
+          uri: http://13.201.162.236:8089
+          predicates:
+            - Path=/login/**
+
+      default-filters:
+        - DedupeResponseHeader=Access-Control-Allow-Origin Access-Controller-Allow-Credentials
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
