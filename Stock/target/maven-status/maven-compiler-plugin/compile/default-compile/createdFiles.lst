@@ -1,0 +1,7 @@
+com\cognizant\Stock\Controller\StockController.class
+com\cognizant\Stock\Service\StockService.class
+com\cognizant\Stock\Model\Stock.class
+com\cognizant\Stock\Model\StockList.class
+com\cognizant\Stock\Config\FilterConfig.class
+com\cognizant\Stock\Filter\JwtTokenFilter.class
+com\cognizant\Stock\StockApplication.class

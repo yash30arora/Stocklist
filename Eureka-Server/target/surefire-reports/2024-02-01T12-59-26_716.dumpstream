@@ -1,0 +1,5 @@
+# Created at 2024-02-01T12:59:27.148
+Boot Manifest-JAR contains absolute paths in classpath 'E:\stock app yash\sts stock yash\Backend\Eureka-Server\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
